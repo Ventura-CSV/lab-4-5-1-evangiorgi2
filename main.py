@@ -4,10 +4,11 @@ import random
 def main():
    
     total = 0
+    i = 0
     numbers = []
     while i < 5:
-        numbers = random.radint(0, 100)
-        total = sum(numbers)
+        numbers = random.randint(0, 100)
+        total = total + numbers[i]
         i += 1
     
     
