@@ -2,18 +2,19 @@ import random
 
 
 def main():
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
-
+   
+    total = 0
+    numbers = []
+    while i < 5:
+        numbers = random.radint(0, 100)
+        total = sum(numbers)
+        i += 1
+    
+    
     print(f'The random values are {numbers}')
     print(f'The total is {total}')
 
-    ########################################
-    # Do not delete the return statement
-    ########################################
+
     return numbers, total
 
 
